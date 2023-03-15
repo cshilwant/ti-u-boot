@@ -62,7 +62,7 @@ config SYS_K3_MCU_SCRATCHPAD_BASE
 	default 0x40280000 if SOC_K3_AM6
 	default 0x40280000 if SOC_K3_J721E
 	default 0x40280000 if SOC_K3_J721S2
-	default 0x40280000 if SOC_K3_J784S4
+	default 0x41cff9fc if SOC_K3_J784S4
 	help
 	  Describes the base address of MCU Scratchpad RAM.
 
